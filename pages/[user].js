@@ -1,9 +1,9 @@
 import Link from "next/link";
+import Image from "next/image";
 import User from "../public/Data"
 import LinksContainer from "../components/LinksContainer";
 
 const UserPage = ({ data }) => {
-    // console.log(data.links)
     return (
         <>
           <Link href="/" className="p-4 closeContainer"><i className="fas fa-times"></i></Link>
@@ -36,12 +36,13 @@ export const getStaticPaths = () => {
     let paths = User.map((item) => {
         return {
             params:{
-                user: item.username.toString(),
+                user: item.username,
             },
         }
     });
+    console.log(paths.length)
     return{
-        paths,
+        paths:paths,
         fallback: true
     }
 }
@@ -51,7 +52,6 @@ export const getStaticProps = async (context) => {
   for (let i = 0; i < User.length; i++) {
       if(User[i].username === context.params.user){
           data = User[i];
-          break;
       }   
   }
     return{

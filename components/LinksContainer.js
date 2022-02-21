@@ -1,7 +1,6 @@
 import Linktab from "./Linktab";
 
 const LinksContainer = ({ links }) => {
-  console.log(links)
     return (
         <div className="linkBody" id='linkBody'>
           {links.map(element => {
