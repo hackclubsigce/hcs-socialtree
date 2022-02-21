@@ -536,6 +536,28 @@ const User = [
                 link: "https://www.instagram.com/shivam11_01/"
             }
         ]
+    },
+    {   
+        id: 17,
+        user: "Chaitrali Tambe",
+        username: "ChaitraliTambe",
+        img: "https://i.postimg.cc/VvTWL9sz/Square-1-20220221194419-Chaitrali-Tambe.png",
+        position: "Core Team Member",
+        domains: ['Graphics'],
+        links: [
+            {
+                class: "linkedin",
+                icon: "bi bi-linkedin",
+                name: "LinkedIn",
+                link: "https://www.linkedin.com/in/chaitrali-tambe-931055218"
+            },
+            {
+                class: "instagram",
+                icon: "bi bi-instagram",
+                name: "Instagram",
+                link: "https://www.instagram.com/me_chaitrali_"
+            }
+        ]
     }
 ]
 
