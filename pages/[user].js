@@ -43,7 +43,7 @@ export const getStaticPaths = () => {
     console.log(paths.length)
     return{
         paths:paths,
-        fallback: true
+        fallback: false
     }
 }
 
