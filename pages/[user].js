@@ -1,11 +1,14 @@
 import Link from "next/link";
-import Image from "next/image";
+import Head from "next/head";
 import User from "../public/Data"
 import LinksContainer from "../components/LinksContainer";
 
 const UserPage = ({ data }) => {
     return (
         <>
+        <Head>
+          <title>SocialTree | @{data.username}</title>
+        </Head>
           <Link href="/" className="p-4 closeContainer"><i className="fas fa-times"></i></Link>
           <div className="linkHeader">
             <div className="image">
