@@ -558,6 +558,34 @@ const User = [
                 link: "https://www.instagram.com/me_chaitrali_"
             }
         ]
+    },
+    {   
+        id: 18,
+        user: "Ekta Vayanan",
+        username: "EktaVayanan",
+        img: "https://i.postimg.cc/c4wB51jb/ekta-vayanan.jpg",
+        position: "Core Team Member",
+        domains: ['AI-ML'],
+        links: [
+            {
+                class: "linkedin",
+                icon: "bi bi-linkedin",
+                name: "LinkedIn",
+                link: "https://www.linkedin.com/in/ekta-vayanan-b68a59202/"
+            },
+            {
+                class: "instagram",
+                icon: "bi bi-instagram",
+                name: "Instagram",
+                link: "https://www.instagram.com/_ekta01_/"
+            },
+            {
+                class: "github",
+                icon: "bi bi-github",
+                name: "GitHub",
+                link: "https://github.com/ektav118"
+            }
+        ]
     }
 ]
 
